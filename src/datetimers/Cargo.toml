@@ -1,0 +1,14 @@
+[package]
+name = "datetimers"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "datetimers"
+crate-type = ["cdylib"] # Creates dynamic lib
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[build-dependencies]
+cbindgen = "0.26"
+
+[dependencies]
+chrono = "0.4.35"
