@@ -9,3 +9,5 @@ target_link_libraries(datetime ${MORPHO_LIBRARY} ${CMAKE_SOURCE_DIR}/src/datetim
 ```
 
 Lots more to document, but it seems to work!
+
+![Screenshot of Morpho CLI calling the datetime functions](assets/morpho-datetime.png)
